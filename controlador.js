@@ -53,10 +53,6 @@ else
 {
     totalNeto = (cantidad * precioProducto) + COSTODEENVIO;
 }
-
-
-
-
 // datos de salida
 
 console.log (`señor usuario ${nombreUsuario}, el total de la compra es ${totalNeto}`)
