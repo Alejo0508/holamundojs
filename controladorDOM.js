@@ -28,4 +28,23 @@ titulotarjeta2.textContent = "Banda Coldplay";
 
 
 
+// detectar eventos de click
+
+botonpista1.addEventListener("click", cargarpista);
+botonpista2.addEventListener("click", cargarpista2);
+
+
+
+
+function cargarpista (){
+    audiovariable.src = "audio/audio1.mp3";
+}
+function cargarpista2 (){
+    audiovariable.src = "audio/audio2.mp3";
+}
+
+
+
+
+
 
